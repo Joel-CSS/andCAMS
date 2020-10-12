@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_weekly"
+            android:icon="@drawable/date_range"
+            android:title="@string/menu_weekly" />
+        <item
+            android:id="@+id/nav_daily"
+            android:icon="@drawable/calendar_today"
+            android:title="@string/menu_daily" />
+        <item
+            android:id="@+id/nav_pper"
+            android:icon="@drawable/calendar_view_day"
+            android:title="@string/menu_pper" />
+    </group>
+</menu>
